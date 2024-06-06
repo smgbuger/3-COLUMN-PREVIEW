@@ -65,6 +65,8 @@ body {
   padding: 30px;
   background-color: var(--Bright-orange);
   width: 250px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 .sedans h2 {
@@ -99,12 +101,27 @@ body {
 @media (max-width: 500px) {
   .sedans {
     border-top-left-radius: 10px;
+    border-bottom-left-radius: 0px;
     border-top-right-radius: 10px;
+    border-bottom-right-radius: 0px;
+    padding: 30px;
   }
+  .sedans img {
+    padding-top: 20px;
+  }
+
+  .sedans h2 {
+    padding-top: 20px;
+  }
+
   .sedans p {
-    margin: 20px;
+    margin: 30px 0 30px 0;
     font-size: 14px;
-    padding-top: 10px;
+    padding: 0 70px 30px 0;
+  }
+
+  .sedans a {
+    margin-top: 50px;
   }
 }
 
@@ -146,10 +163,29 @@ body {
 }
 
 @media (max-width: 500px) {
-  .suvs p {
-    margin: 20px;
+  .suvs {
+    border-top-left-radius: none;
+    border-top-right-radius: none;
+    border-top-left-radius: none;
+    border-bottom-left-radius: none;
+  }
+
+  .suv img {
+    padding-top: 20px;
+  }
+
+  .suv h2 {
+    padding-top: 20px;
+  }
+
+  .suv p {
+    margin: 30px 0 30px 0;
     font-size: 14px;
-    padding-top: 10px;
+    padding: 0 70px 30px 0;
+  }
+
+  .suv a {
+    margin-top: 50px;
   }
 }
 /* ======================================= */
@@ -157,6 +193,8 @@ body {
   padding: 30px;
   background-color: var(--Very-dark-cyan);
   width: 250px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .luxury h2 {
@@ -192,16 +230,26 @@ body {
 @media (max-width: 500px) {
   .luxury {
     border-bottom-left-radius: 10px;
+    border-top-left-radius: 0px;
     border-bottom-right-radius: 10px;
+    border-top-right-radius: 0px;
+  }
+
+  .luxury img {
+    padding-top: 20px;
   }
 
   .luxury h2 {
-    margin-bottom: auto;
+    padding-top: 20px;
   }
 
   .luxury p {
-    margin: 15px;
+    margin: 30px 0 30px 0;
     font-size: 14px;
-    padding-top: 50px;
+    padding: 0 70px 30px 0;
+  }
+
+  .luxury a {
+    margin-top: 50px;
   }
 }
