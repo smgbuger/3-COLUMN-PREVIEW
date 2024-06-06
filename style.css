@@ -170,21 +170,21 @@ body {
     border-bottom-left-radius: none;
   }
 
-  .suv img {
-    padding-top: 20px;
+  .suvs img {
+    padding-top: 30px;
   }
 
-  .suv h2 {
-    padding-top: 20px;
+  .suvs h2 {
+    padding-top: 30px;
   }
 
-  .suv p {
+  .suvs p {
     margin: 30px 0 30px 0;
     font-size: 14px;
-    padding: 0 70px 30px 0;
+    padding: 0 20px 10px 0;
   }
 
-  .suv a {
+  .suvs a {
     margin-top: 50px;
   }
 }
